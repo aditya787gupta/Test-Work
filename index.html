@@ -6,8 +6,527 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello All</h1>
-    <p>MY self Aditya <br> I am testing git hub<p>
-        
+      <div class="container">
+        <a href="logo">
+        <img src="/Frontend/HTML/images/—Pngtree—boy logo vector illustration to_13172565.png" alt="" height="80px" width="80px" style="filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(127deg) brightness(107%) contrast(101%);">
+    </a>
+        <ul>
+         <div class="box1">
+            <li class="item">
+                <a href="#">Home</a>
+            </li>
+         </div>
+         <div class="box2">
+            <li class="item">
+                <a href="#">about</a>
+            </li>
+         </div>
+         <div class="box3">
+             <li><a href="#">vlog</a></li> 
+         </div>
+         <div class="box4">
+             <li><a href="#">contact</a></li>
+         </div>  
+        </ul>   
+   </div>
+   <div class="container-1">
+    <div class="row-1">
+    <div class="col33-1"></div>
+    <div class="col33-2"></div>
+    <div class="col33-3"></div>
+    <div class="row-2">
+    <div class="col100">
+        <h1>LOVE</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid possimus, at veniam ipsa similique vitae saepe aut amet cum accusantium ipsam. Nobis eveniet temporibus repudiandae deserunt beatae totam velit maxime.</p>
+    </div>
+    </div>
+    <hr>
+    </div>
+    <div class="row-3">
+      <div class="col-25-1">
+        <div class="flip-card">
+        <div class="flip-card-inner">
+        <div class="flip-card-front"></div>
+        <div class="flip-card-back">
+          <h1-1>LOVE</h1-1>
+        <p-1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid possimus, at veniam ipsa similique vitae saepe aut amet cum accusantium ipsam. Nobis eveniet temporibus repudiandae deserunt beatae totam velit maxime.</p-1>
+        </div>
+      </div>
+      </div>
+     </div>
+     <div class="col-25-2">
+        <div class="flip-card-1">
+        <div class="flip-card-inner-1">
+        <div class="flip-card-front-1"></div>
+        <div class="flip-card-back-1">
+          <h1-2>Special</h1-2>
+        <p-2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid possimus, at veniam ipsa similique vitae saepe aut amet cum accusantium ipsam. Nobis eveniet temporibus repudiandae deserunt beatae totam velit maxime.</p-2>
+        </div>
+        </div>
+        </div>
+     </div>
+     <div class="col-25-3">
+        <div class="flip-card-2">
+        <div class="flip-card-inner-2">
+        <div class="flip-card-front-2"></div>
+        <div class="flip-card-back-2">
+          <h1-3>LOVE</h1-3>
+        <p-3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid possimus, at veniam ipsa similique vitae saepe aut amet cum accusantium ipsam. Nobis eveniet temporibus repudiandae deserunt beatae totam velit maxime.</p-3>
+        </div>
+        </div>
+        </div>
+      </div>
+      <div class="col-25-4">
+        <div class="frame2-border">
+        <div class="frame2-border-text">
+            <p class="frame2-border-heading">Loved</p>
+            <p class="frame2-border-line"> you yesterday, love <br>you <br> still, always have, <br> always will <br> I’ll be loving you, <br> always with <br> a love thats <br> true</p>
+        </div>
+        <div class="frame2">
+            <div class="frame2-text">
+                <p class="frame2-heading">Special</p>
+                <p class="frame2-line">Is there a special woman you love <br> in your life? <br> Do you want to remind her <br> how much she means to <br> you?</p>
+            </div>
+        </div>
+    </div>
+       </div>
+       </div>
+     </div>
+    </div>
 </body>
 </html>
+<style>
+
+    /* SECTION-1 */
+
+    *
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+   
+    ul
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+     a img
+    {
+       position: absolute;
+       left: 10px;
+       transition: 0.5s ease-in-out;
+       transform: perspective(100px);
+
+    }
+    a img:hover
+    {
+        transform: scale(1.2);
+    }
+   .container
+    {
+      background-image: url("https://wallpapercave.com/wp/lQSXWvm.jpg");
+      background-size: cover;
+        height: 200px;
+        width: 100%;
+    }
+    .container ul li a
+    {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+        padding: 10px;
+        text-transform: uppercase;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+    .container ul li
+    {
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        list-style: none;
+        margin-top: 30px;
+    }
+    .container ul
+    {
+        float: right;
+        margin-right: 90px;
+    }
+    .box1
+   {
+        transition: .5s ease-in-out;
+        perspective: 200px;
+
+   }
+   .box1:hover
+   {
+     transform: rotateY(360deg);
+   }
+    .box2
+   {
+        transition: .5s ease-in-out;
+        perspective: 200px;
+
+   }
+   .box2:hover
+   {
+     transform: rotateY(360deg);
+   }
+    .box3
+   {
+        transition: .5s ease-in-out;
+        perspective: 200px;
+
+   }
+   .box3:hover
+   {
+     transform: rotateY(360deg);
+   }
+    .box4
+   {
+        transition: .5s ease-in-out;
+        perspective: 200px;
+
+   }
+   .box4:hover
+   {
+     transform: rotateY(360deg);
+   }
+
+   /* SECTION-2 */
+
+   .container-1
+   {
+    background: url("https://th.bing.com/th/id/R.f810a9f4f7f02b563490b748b366ecd0?rik=aTTJa40865TqJw&riu=http%3a%2f%2fwww.designbolts.com%2fwp-content%2fuploads%2f2019%2f01%2fHearts-High-Resolution-Image.jpg&ehk=ggemAtKnZd9eg%2bw06m8MA6B3YC8hD89bMX6l%2bdO2AzI%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    filter: brightness(90%);
+   }
+   .row-1
+   {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .col33-1
+   {
+    background: url("https://4.bp.blogspot.com/-IGfmNXrnziQ/Wn77hH40ncI/AAAAAAAAAG8/qWpbGWqG1g8dVGDQVu7SNqfCFThtaQIEQCLcBGAs/s1600/I+love+you+quotes.png");
+    background-size: cover;
+    height: 150px;
+    width:250px;
+    margin: 10px;
+    margin-left: 40px;
+    transition: 1s ease-in-out;
+  perspective: 200px;
+   }
+   .col33-1:hover
+   {
+    transform: skewY(-45deg);
+   }
+    .col33-2
+   {
+    background: url("https://tse2.mm.bing.net/th/id/OIP.0Xa1iGLMVeGrlMKcmqpk3wHaGn?rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-size: cover;
+    height: 150px;
+    width:250px;
+    margin: 10px;
+    transition:1s ease-in-out;
+  perspective: 200px;
+   }
+   .col33-2:hover
+   {
+     transform: translateY(50px);
+   }
+    .col33-3
+   {
+    background: url("https://parade.com/.image/t_share/MTkwNTc1ODgzMjU3NzE3ODg1/seuss.jpg");
+    background-size: cover;
+    height: 150px;
+    width:250px;
+    margin: 10px; 
+    transition: 1s ease-in-out;
+  perspective: 200px;
+   }
+   .col33-3:hover
+   {
+    transform:skewY(45deg);
+   }
+   .row-2
+   {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .col100
+   {
+    justify-content: center;
+    margin-top: 20px ;
+    margin-bottom: 50px;
+    height: 100px;
+    width:calc(100% - 800px);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    transition: 1s ease-in-out;
+    perspective: 200px;
+   }
+   .col100:hover
+   {
+    transform: translateY(50px);
+   }
+    hr
+   {
+    justify-items: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width:calc(100% - 800px);
+   }
+
+   /* SECTION-3 */
+
+   .row-3
+   {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 50px;
+   }
+ .flip-card {
+  background-color: transparent;
+  height: 300px;
+  width: 150px; 
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-image: url(https://e0.pxfuel.com/wallpapers/875/769/desktop-wallpaper-cute-couple-romantic-cute-couple-romantic.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.flip-card-back {
+  background-image: url(/images/couple-enjoyment-farm-1990519\ \(1\).jpg);
+ background-size: cover;
+  transform: rotateY(180deg);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+}
+ .flip-card-1 {
+  background-color: transparent;
+  height: 300px;
+  width: 150px; 
+  perspective: 1000px;
+}
+
+.flip-card-inner-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-1:hover .flip-card-inner-1 {
+  transform: rotateY(-180deg);
+}
+
+.flip-card-front-1, .flip-card-back-1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front-1 {
+  background-image: url(https://tse2.mm.bing.net/th/id/OIP.eFvNKgtnY1rKqOv5S4ByygHaLG?rs=1&pid=ImgDetMain&o=7&rm=3);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.flip-card-back-1 {
+  background-image: url(https://w0.peakpx.com/wallpaper/521/644/HD-wallpaper-couples-love-cute-couples-couples-in-love-couple-goals-couples.jpg);
+  background-size: cover;
+  transform: rotateY(180deg);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 10px;
+}
+ .flip-card-2 {
+  background-color: transparent;
+  height: 300px;
+ width: 150px; 
+  perspective: 1000px;
+}
+
+.flip-card-inner-2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-2:hover .flip-card-inner-2 {
+  transform:rotateX(180deg)
+}
+
+.flip-card-front-2, .flip-card-back-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front-2 {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/020/181/899/large_2x/carrying-engagement-pose-prompt-with-foot-pop-among-dry-trees-photo.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.flip-card-back-2 {
+  background-image: url(https://tse1.mm.bing.net/th/id/OIP.ClHG6rdTM328bjVJIc2hqgHaLG?rs=1&pid=ImgDetMain&o=7&rm=3);
+  background-size: cover;
+  transform:rotateX(180deg);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 10px;
+}
+ .frame2-border
+    {
+        width: 150px;
+        height: 300px;
+        /* border: 1px solid black; */
+        background-image: url(/couple2.jpg);
+        background-size: 100% 100%;
+        border-radius: 10px;
+        margin-left: 40px;
+        cursor: pointer;
+    }
+    .frame2-border-text
+    {
+        position: absolute;
+        opacity: 0;
+        transition: all 0.7s;
+    }
+    .frame2-border:hover .frame2-border-text
+    {
+        opacity: 1;
+    }
+    .frame2-border-heading
+    {
+        font-size: 40px;
+        color: rgb(184, 136, 48);
+        padding: 10px;
+    }
+    .frame2-border-line
+    {   
+        font-size: 17px;
+        margin-top: -13px;
+        padding: 10px;
+        color: rgb(87, 85, 85);
+    }
+    .frame2
+    {
+        width: 150px;
+        height: 300px;
+        background-image: url(/couple5.jpg);
+        background-size: 100% 100%;
+        border-radius: 10px;
+        transition: 1.5s;
+        cursor: pointer;
+    }
+    .frame2-border:hover .frame2
+    {
+        transform: perspective(400px) translateX(200px);
+        background-image: url(/couple3.jpg);
+    }
+    .frame2-text
+    {
+        opacity: 0;
+        transition: 1.8s;
+        padding: 10px 10px;
+    }
+    .frame2-heading
+    {
+        font-size: 40px;
+        color: rgb(146, 15, 15);
+    }
+    .frame2-line
+    {
+        font-size: 17px;
+        color: rgb(10, 10, 10);
+    }
+    .frame2:hover .frame2-text
+    {
+        opacity: 1;
+        /* transform: rotateY(-180deg); */
+    }
+    h1-1
+    {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(255, 62, 62);
+  font-size: 50px;
+  text-align: center;
+    }
+    p-1
+    {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     color: rgb(255, 255, 255);
+       font-size:15px;
+     text-align: center;
+    }
+     h1-2
+    {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(255, 62, 62);
+  font-size: 45px;
+  text-align: center;
+    }
+    p-2
+    {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     color: rgb(255, 255, 255);
+       font-size:15px;
+     text-align: center;
+    }
+     h1-3
+    {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(255, 62, 62);
+  font-size: 50px;
+  text-align: center;
+    }
+    p-3
+    {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     color: rgb(255, 255, 255);
+       font-size:15px;
+     text-align: center;
+    }
+</style>
