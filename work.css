@@ -1,4 +1,4 @@
-/* Reset some default styles */
+   /* Reset some default styles */
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +14,8 @@ body {
 
 /* Hero Section */
 .container-1 {
-  background: linear-gradient(to right, #111, #444);
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20240408/pngtree-clothing-store-in-shopping-mall-boutique-shop-interior-blur-defocused-background-image_15650933.jpg");
+  background-size: cover;
   color: white;
   text-align: center;
   padding: 80px 20px;
@@ -70,6 +71,25 @@ body {
 #menu-toggle {
   display: none;
 }
+/* Footer */
+.footer {
+  background: #111;            
+  color: #aaa;                 
+  text-align: center;         
+  padding: 20px;               
+  margin-top: 40px;            
+}
+
+.footer p {
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+.footer p:hover {
+  color: #ff9800;              
+  transition: color 0.3s ease;
+}
+
 
 @media (max-width: 768px) {
   .menu {
@@ -96,35 +116,39 @@ body {
 
 .categories .row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 25px;
   text-align: center;
 }
 
 .categories .col {
   background: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.categories .col img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.categories .col p {
+  margin: 12px 0;
   font-weight: bold;
+  font-size: 1.1rem;
+  color: #333;
 }
 
 .categories .col:hover {
-  transform: translateY(-5px);
-  background: #ff9800;
-  color: white;
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Footer */
-.footer {
-  background: #111;
-  color: #aaa;
-  text-align: center;
-  padding: 20px;
-  margin-top: 30px;
-}
-
-.footer p {
-  font-size: 0.9rem;
+.categories .col:hover p {
+  color: #ff9800;
 }
